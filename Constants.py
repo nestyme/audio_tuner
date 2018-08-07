@@ -1,12 +1,6 @@
 
 
-    # data
-data = "/data/private/voice/LJSpeech-1.0"
-test_data = 'test_sents.txt'
-ref_audio = 'ref1/*.wav'
-Tx = 188 # Fixed length of text length.
-
-    # signal processing
+# signal processing
 sr = 22050 # Sample rate.
 n_fft = 2048 # fft points (samples)
 frame_shift = 0.0125 # seconds
