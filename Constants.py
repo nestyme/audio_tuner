@@ -1,6 +1,4 @@
-prepro = True  # if True, run `python prepro.py` first before running `python train.py`.
 
-vocab = u'''␀␃ !',-.:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz''' # ␀: Padding ␃: End of Sentence
 
     # data
 data = "/data/private/voice/LJSpeech-1.0"
